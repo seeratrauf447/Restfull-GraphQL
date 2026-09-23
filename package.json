@@ -1,0 +1,19 @@
+{
+  "name": "ecommerce-api-lab03",
+  "version": "1.0.0",
+  "description": "Lab Assignment 03 - RESTful E-Commerce API with GraphQL over-fetching solution",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "graphql": "^16.9.0",
+    "graphql-http": "^1.22.1",
+    "ruru": "^2.0.0",
+    "uuid": "^9.0.1"
+  },
+  "license": "MIT"
+}
