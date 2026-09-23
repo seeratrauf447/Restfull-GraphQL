@@ -30,6 +30,22 @@ npm install
 npm start
 ```
 
+## 📸 Screenshots
+
+### GraphQL Playground — Field Selection Test
+![GraphQL query result]<img width="1280" height="680" alt="ss1" src="https://github.com/user-attachments/assets/e976d133-bb7f-4ebd-8e41-6212cb2afa3d" />
+
+
+### REST API - Product List
+![Products endpoint]
+
+
+
+### Idempotent Order Creation Test
+![Idempotency test]
+<img width="1280" height="680" alt="ss4" src="https://github.com/user-attachments/assets/4ecb9a62-cbb7-4121-b6ff-0646051d333a" />
+
+
 Server starts at: **http://localhost:3000**
 
 You should see:
@@ -39,6 +55,29 @@ You should see:
 🔗 GraphQL: http://localhost:3000/graphql (POST)
 🧪 GraphQL Playground: http://localhost:3000/playground
 ```
+<img width="1280" height="680" alt="ss3" src="https://github.com/user-attachments/assets/dda3681e-8f55-487c-a0ed-6988ad034f29" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Optional (auto-restart on file changes):
 ```bash
@@ -63,6 +102,11 @@ Strictly noun-based URIs, correct HTTP verbs, idempotent `PUT`.
 ```
 GET /api/v1/products?category=electronics&minPrice=1000&maxPrice=9000&page=1&limit=5
 ```
+
+
+
+
+
 
 **Idempotent PUT example** — calling this twice in a row produces the exact
 same end state (no duplicated increments, no corrupted state):
